@@ -1,0 +1,109 @@
+#arriba {
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 100%;
+    background-color: red;
+    border: 1px black solid;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+#consultas{
+    margin: 10px;
+}
+
+#logo {
+    height: 90%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.all {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    border: 1px black solid;
+}
+
+#padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.cuadrados {
+    height: 250px;
+    width: 250px;
+    align-content: center;
+    border-radius: 10px;
+    margin: 50px;
+
+}
+
+#c1 {
+    background-color: purple;
+}
+
+#c2 {
+    background-color: black;
+}
+
+#c3 {
+    background-color: purple;
+}
+
+@media (max-width: 468px) {
+
+    #arriba{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    flex-direction: column;
+    height: 15%;
+    }
+    #logo{
+        width: 115px;
+        height: auto;
+        display:flex;
+        margin-top: 25px;
+        margin-left: 30%;
+
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50%;
+        margin-top: -25%;
+    }
+    #consultas{
+        margin: 0;
+    }
+
+    .cuadrados {
+        height: 150px;
+        width: 150px;
+        border-radius: 30px;
+        flex-direction: column;
+        border: 0;
+        margin: 10px;
+    }
+    #padre{
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        margin: 0;
+        margin-left: 25%;
+        padding: 20px;
+        
+    }      
+}
